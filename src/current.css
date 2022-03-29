@@ -1,0 +1,22 @@
+.city {
+  padding-top: 30px;
+}
+.city,
+.today,
+.time,
+.temperature,
+.search-box,
+.humidity,
+.wind-speed,
+.description {
+  padding-left: 30px;
+}
+
+.description {
+  text-transform: capitalize;
+  color: #75597d;
+  font-weight: 800px;
+}
+.wind-speed {
+  padding-bottom: 20px;
+}

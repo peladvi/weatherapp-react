@@ -1,0 +1,31 @@
+.search-input {
+  background-color: #d4a2be;
+  border: 8px solid#d4a2be;
+  border-radius: 20px;
+  font-size: 20px;
+
+  box-shadow: 3px 3px 3px #75597d;
+}
+.search-input:focus-visible {
+  outline: none;
+}
+
+.button {
+  color: #f8e4dd;
+  border: 8px solid #75597d;
+  background-color: #75597d;
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px #75597d;
+  transition: all 200ms ease-in-out;
+}
+.button:hover {
+  background: linear-gradient(
+    104.3deg,
+    rgb(253, 243, 243) 10.9%,
+    rgb(248, 231, 231) 27.8%,
+    rgb(160, 112, 161) 101.7%
+  );
+  color: #75597d;
+  border: none;
+}
