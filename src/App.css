@@ -19,3 +19,13 @@ h1 {
   padding: 30px;
   padding-left: 50px;
 }
+footer {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+footer a {
+  color: #d4a2be;
+}
