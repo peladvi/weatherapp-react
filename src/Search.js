@@ -1,7 +1,7 @@
 import React from "react";
 import "./search.css";
 
-export default function () {
+export default function Search() {
   return (
     <form class="search-box">
       <input

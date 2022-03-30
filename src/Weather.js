@@ -4,7 +4,7 @@ import "./App.css";
 import Current from "./Current";
 import Icon from "./Icon";
 
-export default function () {
+export default function Weather() {
   return (
     <section>
       <h1>What's your weather?</h1>
