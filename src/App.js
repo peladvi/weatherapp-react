@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="container">
       <div className="App">
-        <Weather />
+        <section className="Weather">
+          <h1>What's your weather?</h1>
+          <Weather />
+        </section>
         <footer>
           <a
             href="https://github.com/peladvi/weatherapp-react"
