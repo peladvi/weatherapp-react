@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import "./weather.css";
 import Icon from "./Icon";
+import Today from "./Today";
 
 export default function Weather() {
   let city = "Naples";
@@ -16,6 +17,7 @@ export default function Weather() {
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -37,7 +39,9 @@ export default function Weather() {
         <div class="row">
           <div className="col-6">
             <h2 className="city">Naples</h2>
-            <div className="today">Tuesday 11:05</div>
+            <div className="today">
+              <Today date={weather.date} />
+            </div>
             <h2>
               <span className="temperature">
                 {Math.round(weather.temperature)}
