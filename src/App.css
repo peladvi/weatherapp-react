@@ -1,7 +1,6 @@
 section {
   border: 12px solid #75597d;
   border-radius: 35px;
-
   box-shadow: 5px 5px 5px #75597d;
   max-width: 800px;
   margin: 30px auto 0;
@@ -15,11 +14,11 @@ section {
   );
 }
 
-h1 {
+.Weather h1 {
   padding: 30px;
   padding-left: 50px;
 }
-footer {
+.App footer {
   display: block;
   margin: 0 auto;
   max-width: 800px;
