@@ -8,7 +8,7 @@ function App() {
       <div className="App">
         <section className="Weather">
           <h1>What's your weather?</h1>
-          <Weather />
+          <Weather default="Warsaw" />
         </section>
         <footer>
           <a
