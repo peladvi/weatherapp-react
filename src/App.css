@@ -1,8 +1,7 @@
 section {
-  border: 12px solid #75597d;
-  border-radius: 35px;
   box-shadow: 5px 5px 5px #75597d;
-  max-width: 800px;
+
+  max-width: 700px;
   margin: 30px auto 0;
   font-family: "Inconsolata", cursive;
   padding: 15px;
@@ -15,13 +14,13 @@ section {
 }
 
 .Weather h1 {
-  padding: 30px;
+  padding: 20px;
   padding-left: 50px;
 }
 .App footer {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
   font-family: "Times New Roman", Times, serif;
   margin-top: 10px;
 }

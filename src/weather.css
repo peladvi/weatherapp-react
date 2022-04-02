@@ -3,8 +3,8 @@
 }
 .search-input {
   background-color: #d4a2be;
-  border: 8px solid#d4a2be;
-  border-radius: 20px;
+  border: 8px solid #d4a2be;
+  border-radius: 4px;
   font-size: 20px;
 
   box-shadow: 3px 3px 3px #75597d;
@@ -17,10 +17,10 @@
   color: #f8e4dd;
   border: 8px solid #75597d;
   background-color: #75597d;
-  border-radius: 20px;
   font-size: 20px;
   box-shadow: 3px 3px 3px #75597d;
   transition: all 300ms ease-in-out;
+  margin-left: 8px;
 }
 .button:hover {
   background: linear-gradient(

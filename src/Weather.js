@@ -16,6 +16,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
+      icon: response.data.weather[0].icon,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -48,7 +49,9 @@ export default function Weather(props) {
             onChange={handleCity}
           />
           <input type="submit" value="Search" className="button" />
-          <button className="button">Current location</button>
+          <button type="submit" value="Current" className="button">
+            Current location
+          </button>
         </form>
 
         <Current data={weather} />

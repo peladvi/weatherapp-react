@@ -22,7 +22,9 @@ export default function Current(props) {
           Wind Speed: {Math.round(props.data.wind)}m/s
         </div>
       </div>
-      <Icon />
+      <div className="col-6">
+        <Icon code={props.data.icon} />
+      </div>
     </div>
   );
 }
