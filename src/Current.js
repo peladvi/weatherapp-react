@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "./Icon.js";
 import Today from "./Today";
+import Temperature from "./Temperature";
 
 export default function Current(props) {
   return (
@@ -10,12 +11,7 @@ export default function Current(props) {
         <div className="today">
           <Today date={props.data.date} />
         </div>
-        <h2>
-          <span className="temperature">
-            {Math.round(props.data.temperature)}
-          </span>
-          <span className="units">°C</span>
-        </h2>
+        <Temperature celsius={props.data.temperature} />
         <strong className="description">{props.data.description}</strong>
         <div className="humidity">Humidity: {props.data.humidity}%</div>
         <div className="wind-speed">
