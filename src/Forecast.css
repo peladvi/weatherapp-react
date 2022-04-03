@@ -1,0 +1,13 @@
+.Forecast {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.Forecast canvas {
+  padding-top: 10px;
+}
+
+.col {
+  margin-right: 8px;
+  box-shadow: 5px 5px 5px #75597d;
+}

@@ -19,7 +19,7 @@ export default function Current(props) {
         </div>
       </div>
       <div className="col-6">
-        <Icon code={props.data.icon} />
+        <Icon code={props.data.icon} size={170} />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 }
 .search-input {
   background-color: #d4a2be;
-  border: 8px solid #d4a2be;
+  border: 6px solid #d4a2be;
   border-radius: 4px;
   font-size: 20px;
 
@@ -15,7 +15,7 @@
 
 .button {
   color: #f8e4dd;
-  border: 8px solid #75597d;
+  border: 6px solid #75597d;
   background-color: #75597d;
   font-size: 20px;
   box-shadow: 3px 3px 3px #75597d;
