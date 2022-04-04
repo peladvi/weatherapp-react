@@ -18,14 +18,7 @@ function App() {
           >
             Open-source code,
           </a>
-          <span> by Paula Ladwiniec | weather icons from </span>
-          <a
-            href="https://erikflowers.github.io/weather-icons/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            here
-          </a>
+          <span> by Paula Ladwiniec </span>
         </footer>
       </div>
     </div>
