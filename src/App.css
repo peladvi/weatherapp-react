@@ -1,16 +1,10 @@
 section {
-  box-shadow: 5px 5px 5px #75597d;
-
-  max-width: 700px;
+  box-shadow: 5px 5px 5px #77628c;
+  max-width: 650px;
   margin: 30px auto 0;
   font-family: "Inconsolata", cursive;
   padding: 15px;
-  background: linear-gradient(
-    104.3deg,
-    rgb(253, 243, 243) 10.9%,
-    rgb(248, 231, 231) 27.8%,
-    rgb(160, 112, 161) 101.7%
-  );
+  background: #eeeeee;
 }
 
 .Weather h1 {
@@ -20,10 +14,10 @@ section {
 .App footer {
   display: block;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 650px;
   font-family: "Times New Roman", Times, serif;
   margin-top: 10px;
 }
 footer a {
-  color: #d4a2be;
+  color: #77628c;
 }

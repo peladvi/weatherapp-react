@@ -50,10 +50,8 @@ export default function Weather(props) {
             autoFocus="on"
             onChange={handleCity}
           />
+
           <input type="submit" value="Search" className="button" />
-          <button type="submit" value="Current" className="button">
-            Current location
-          </button>
         </form>
 
         <Current data={weather} />
