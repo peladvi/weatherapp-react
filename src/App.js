@@ -7,7 +7,7 @@ function App() {
     <div className="container">
       <div className="App">
         <section className="Weather">
-          <h1>What's your weather?</h1>
+          <h1>What's your weather like?</h1>
           <Weather default="Warsaw" />
         </section>
         <footer>
