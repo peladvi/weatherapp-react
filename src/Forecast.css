@@ -1,7 +1,8 @@
 .Forecast {
   text-align: center;
   padding-left: 15px;
-  padding-right: 10px;
+  padding-right: 8px;
+  margin-bottom: 10px;
 }
 .Forecast canvas {
   padding-top: 10px;
@@ -9,6 +10,13 @@
 
 .col {
   background: #acc6aa;
-  margin-right: 8px;
+  margin-right: 12px;
   box-shadow: 3px 3px 3px #77628c;
+}
+.col:hover {
+  background: #71a0a5;
+}
+
+.forecast-min {
+  opacity: 0.6;
 }

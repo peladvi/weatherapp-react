@@ -19,7 +19,7 @@
   font-size: 20px;
   box-shadow: 3px 3px 3px #77628c;
   transition: all 300ms ease-in-out;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 .button:hover {
   border: none;
@@ -35,7 +35,7 @@
 .humidity,
 .wind-speed,
 .description {
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .description {
@@ -45,4 +45,8 @@
 }
 .wind-speed {
   padding-bottom: 20px;
+}
+
+canvas {
+  padding-top: 40px;
 }
