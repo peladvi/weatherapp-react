@@ -1,6 +1,7 @@
 section {
   box-shadow: 5px 5px 5px #77628c;
   max-width: 650px;
+  border-radius: 2px;
   margin: 30px auto 0;
   font-family: "Inconsolata", cursive;
   padding: 15px;
