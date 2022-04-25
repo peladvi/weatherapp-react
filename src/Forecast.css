@@ -3,19 +3,20 @@
   padding-left: 15px;
   padding-right: 8px;
   margin-bottom: 10px;
+  max-width: 650px;
 }
 .Forecast canvas {
   padding-top: 10px;
 }
 
-.col {
+.col-sm {
   background: #acc6aa;
   margin-right: 12px;
   box-shadow: 3px 3px 3px #77628c;
   opacity: 0.9;
   border-radius: 2px;
 }
-.col:hover {
+.col-sm:hover {
   background: #71a0a5;
 }
 
