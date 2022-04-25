@@ -41,7 +41,7 @@ export default function Weather(props) {
   if (weather.loaded) {
     return (
       <div>
-        <form className="Search" onSubmit={handleSubmit}>
+        <form className="Search form-control-sm" onSubmit={handleSubmit}>
           <input
             type="search"
             placeholder="Enter a city"
