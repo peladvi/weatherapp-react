@@ -1,22 +1,22 @@
 section {
-  box-shadow: 5px 5px 5px #77628c;
-  max-width: 650px;
-  border-radius: 2px;
+  box-shadow: 5px 5px 5px grey;
+  max-width: 400px;
+  border-radius: 4px;
   margin: 30px auto 0;
   font-family: "Inconsolata", cursive;
   padding: 15px;
   background: #eeeeee;
+  text-align: center;
 }
 
 .Weather h1 {
   padding: 10px;
-  padding-left: 40px;
-  font-size: 35px;
+  font-size: 25px;
 }
 .App footer {
   display: block;
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 400px;
   font-family: "Times New Roman", Times, serif;
   margin-top: 10px;
 }

@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
 import Weather from "./Weather.js";
+import background from "./green-sky.jpg";
 
 function App() {
   return (
     <div className="container">
       <div className="App">
-        <section className="Weather">
-          <h1>What's your weather like?</h1>
+        <section
+          className="Weather"
+          style={{ background: `url(${background})` }}
+        >
           <Weather default="Warsaw" />
         </section>
         <footer>

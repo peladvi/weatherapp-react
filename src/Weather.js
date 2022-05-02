@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./App.css";
-import "./weather.css";
 import Current from "./Current.js";
 import Forecast from "./Forecast.js";
+import "./Weather.css";
 
 export default function Weather(props) {
   const [weather, setWeather] = useState({ loaded: false });
@@ -41,7 +40,7 @@ export default function Weather(props) {
   if (weather.loaded) {
     return (
       <div>
-        <form className="Search form-control-sm" onSubmit={handleSubmit}>
+        <form className="Search" onSubmit={handleSubmit}>
           <input
             type="search"
             placeholder="Enter a city"
@@ -55,6 +54,7 @@ export default function Weather(props) {
         </form>
 
         <Current data={weather} />
+        <hr />
         <Forecast coordinates={weather.coordinates} />
       </div>
     );
