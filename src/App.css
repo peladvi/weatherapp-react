@@ -4,15 +4,11 @@ section {
   border-radius: 4px;
   margin: 30px auto 0;
   font-family: "Inconsolata", cursive;
-  padding: 15px;
+  padding: 20px;
   background: #eeeeee;
   text-align: center;
 }
 
-.Weather h1 {
-  padding: 10px;
-  font-size: 25px;
-}
 .App footer {
   display: block;
   margin: 0 auto;
