@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./Weather.css";
+import "./weather.css";
 import Weather from "./Weather.js";
 import background from "./green-sky.jpg";
 
