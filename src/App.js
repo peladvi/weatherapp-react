@@ -20,7 +20,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Open-source code,
+            Coded
           </a>
           <span> by Paula Ladwiniec </span>
         </footer>
